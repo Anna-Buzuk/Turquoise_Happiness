@@ -1,6 +1,5 @@
 body{
 font-family: 'Open Sans', Helvetica, Arial, sans-serif; 
-background: bisque;
 margin: auto;
 }
 
@@ -86,20 +85,137 @@ margin-bottom: -55px;
 
 
 
+.l{
+    position: relative;
+background-color: rgba(52, 52, 53, 0.11);
+border-radius: 1%;
+height: 770px;
+}
 
 
 
 
+.poster{
+    position:relative;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-top: 50px;
+    height:500px;
+    width:500px;
+}
+.descr{
+    display:none;
+    margin-left:250px;
+    padding:10px;
+    margin-top:0px;
+    background:#160404c9;
+    height:130px;
+    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    border-radius: 1%;
+}
+.poster:hover .descr{
+    display:block;
+    position:absolute;
+    top:120px;
+    z-index:9999;
+    width:400px;
+}
+
+.poster_col{
+    color: white;
+}
 
 
 
+.poster_two{
+    position:relative;
+    margin-left: 650px;
+    margin-top: -295px;
+    height:500px;
+    width:500px;
+    
+}
+
+.descr_two{
+    display:none;
+    margin-left:250px;
+    padding:10px;
+    margin-top:0px;
+    background:#160404c9;
+    height:130px;
+    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    border-radius: 1%
+}
+
+.poster_two:hover .descr_two{
+    display:block;
+    position:absolute;
+    top:120px;
+    z-index:9999;
+    width:400px;
+}
+
+.poster_col_two{
+    color: white;
+}
+
+
+.poster_three{
+    position:relative;
+    margin-left: 1100px;
+    margin-top: -295px;
+    height:500px;
+    width:500px;
+    
+}
+
+.descr_three{
+    display:none;
+    margin-left:250px;
+    padding:10px;
+    margin-top:0px;
+    background:#160404c9;
+    height:130px;
+    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    border-radius: 1%
+}
+
+.poster_three:hover .descr_three{
+    display:block;
+    position:absolute;
+    top:120px;
+    z-index:9999;
+    width:400px;
+}
+
+.poster_col_three{
+    color: white;
+}
 
 
 
+.d{
+    position: absolute;
+    top: 5%;
+    left: 70%;
+width: 350px;
+height: 350px;
+border-radius: 50%;
+background: rgba(150, 5, 109, 0.219);
+}
 
 
-
-
-
+.dd{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 25px;
+    color: rgba(20, 20, 22, 0.438);
+}
   
   
